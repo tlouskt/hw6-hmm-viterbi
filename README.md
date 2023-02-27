@@ -1,4 +1,4 @@
-![BuildStatus](https://github.com/bmi203-2023/hw6-hmm-viterbi/actions/workflows/main.yml/badge.svg?)
+![BuildStatus](https://github.com/tlouskt/hw6-hmm-viterbi/actions/workflows/main.yml/badge.svg?)
 [![Documentation Status](https://readthedocs.org/projects/hw6-hmm-viterbi/badge/?version=latest)](https://hw6-hmm-viterbi.readthedocs.io/en/latest/?badge=latest)
 
 # Lab 6: Inferring CRE Selection Strategies from Chromatin Regulatory State Observations using a Hidden Markov Model and the Viterbi Algorithm
@@ -96,12 +96,12 @@ def test_deliverable():
 
 We recommend completing these deliverables in the listed order:
 
-- [ ] Implement the Viterbi algorithm in models.decoders.ViterbiAlgorithm found hw6-hmm-viterbi/src/models/decoders.py.
+- [x] Implement the Viterbi algorithm in models.decoders.ViterbiAlgorithm found hw6-hmm-viterbi/src/models/decoders.py.
 
-- [ ] Complete the docstrings in submodules models.hmm and models.decoders by following the pep257 format including pep484 type hints. 
+- [x] Complete the docstrings in submodules models.hmm and models.decoders by following the pep257 format including pep484 type hints. 
     - Please note, Visual Studio Code supports an extension called [autoDocstring](https://github.com/NilsJPWerner/autoDocstring/blob/HEAD/docs/pep257.md), which will help by creating an automated template for each class method and function.
 
-- [ ] Develop **two** user case unit tests that follow a testable hypothesis that you design for the Viterbi algorithm. State your hypothesis in the documentation.
+- [x] Develop **two** user case unit tests that follow a testable hypothesis that you design for the Viterbi algorithm. State your hypothesis in the documentation.
     - For example, in the lecture, we reviewed an example where the observations were the dedication of a rotating graduate student, and the hidden states were the rotation project's NIH funding.
 
 **Decision Questions, Reminders, & Important Notes**
