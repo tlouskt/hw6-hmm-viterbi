@@ -111,7 +111,7 @@ def test_user_case_two():
     observation_states = ['happy', 'sad']
     
     decode_observation_states = ['happy', 'sad']
-    real_seq = ['rainy', 'sunny']
+    real_seq = np.array(['rainy', 'sunny'])
 
     hmm_weather = HiddenMarkovModel(observation_states = observation_states,
                                     hidden_states = hidden_states,
@@ -139,7 +139,7 @@ def test_user_case_three():
     observation_states = ['energetic', 'tired']
     
     decode_observation_states = ['energetic', 'energetic', 'tired','tired','tired']
-    real_seq = ['normal sleep', 'normal sleep', 'sleep deprived', 'sleep deprived', 'sleep deprived']
+    real_seq = np.array(['normal sleep', 'normal sleep', 'sleep deprived', 'sleep deprived', 'sleep deprived'])
 
     hmm_sleep = HiddenMarkovModel(observation_states = observation_states,
                                     hidden_states = hidden_states,
