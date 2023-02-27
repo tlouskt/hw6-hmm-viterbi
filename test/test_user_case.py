@@ -22,7 +22,7 @@ def test_use_case_lecture():
     hidden_states = ['R01','R21'] # The NIH funding source of the graduate student's rotation project 
 
     # PONDERING QUESTION: How would a user define/compute their own HMM instantiation inputs to decode the hidden states for their use case observations?
-    use_case_one_data = np.load('../data/UserCase-Lecture.npz')
+    use_case_one_data = np.load('./data/UserCase-Lecture.npz')
 
     # Instantiate submodule class models.HiddenMarkovModel with
     # observation and hidden states and prior, transition, and emission probabilities.
